@@ -1,6 +1,10 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
+menuconfig PAW3395
+    bool "PAW3395 sensor"
+    default n
+
 menuconfig ZMK_MOUSE
     bool "Enable ZMK mouse emulation"
     default n
