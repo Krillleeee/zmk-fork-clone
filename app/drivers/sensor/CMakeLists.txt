@@ -7,3 +7,4 @@ add_subdirectory_ifdef(CONFIG_PINNACLE cirque_trackpad)
 add_subdirectory_ifdef(CONFIG_PMW33XX pmw33xx)
 # new impl
 add_subdirectory_ifdef(CONFIG_PMW3360 pixart/pmw3360)
+add_subdirectory_ifdef(CONFIG_PAW3395 pixart/paw3395)
